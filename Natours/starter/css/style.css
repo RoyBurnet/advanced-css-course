@@ -505,7 +505,7 @@ body {
     visibility: visible; }
   .popup:target .popup__content {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(0.25); }
+    transform: translate(-50%, -50%) scale(1); }
   .popup__close:link, .popup__close:visited {
     color: .popup__close:link, .popup__close:visited color-grey-dark;
     position: absolute;
