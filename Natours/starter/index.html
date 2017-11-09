@@ -19,7 +19,11 @@
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
         
-        <label for="navi-toggle" class="navigation__button">MENU</label>
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">
+                &nbsp;
+            </span>
+        </label>
 
         <div class="navigation__background">&nbsp;</div>
 
@@ -53,7 +57,7 @@
                                     <span>
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">Over Ons</a>
+            <a href="#section-tours" class="btn btn--white btn--animated">Over Ons</a>
         </div>
     </header>
     <!-- ABOUT SECTION  + MAIN-->
@@ -139,8 +143,8 @@
             </div>
         </section>
 
-        <!-- TOURS SECTION  + MAIN-->
-        <section class="section-tours">
+        <!-- TOURS SECTION  +  CARDS-->
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -173,7 +177,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
                                 </div>
-                                <a href="#" class="btn btn--white">Book now !</a>
+                                <a href="#popup" class="btn btn--white">Book now !</a>
                             </div>
                         </div>
                     </div>
@@ -308,7 +312,7 @@
             </div>
         </section>
 
-        <!-- BOOKING SECTION  -->
+        <!-- FORM SECTION  -->
 
         <section class="section-book">
             <div class="row">
@@ -377,11 +381,36 @@
             </div>
             <div class="col-1-of-2">
                 <p class="footer__copyright">
-                    built my <a href="#" class="footer__link">Jonas Schmedtmann</a> for this online course <a href="#" class="footer__link">Advanced CSS and Sass</a>. Copyright &copy;
+                    built by <a href="#" class="footer__link">Fes Doti Fresh</a> .Copyright &copy;
                 </p>
             </div>
         </div>
     </footer>
+
+    <!-- popup section --> 
+
+     <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" style="height: 20%">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertairy u-margin-bottom-small">Important &ndash; Please dip these nuts</h3>
+                <p class="popup__text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
+                    quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi,
+                     id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+                     cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, 
+                     omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+                     Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+                </p>
+                <a href="#" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>  
 
     <!-- <section class="grid-test">
 
